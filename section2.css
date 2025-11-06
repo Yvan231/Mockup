@@ -1,0 +1,27 @@
+/* --- HEADER --- */
+.section2 header {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    height: 20vh; width: auto;}
+.section2 h1 {font-size: 350%; color: white; z-index: 2;}
+
+/* --- BODY --- */
+.section2 {align-items: center; justify-content: center;}
+.section2 .body {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    height: 80vh; width: auto;
+    margin: 0% 5%; margin-bottom: 2.5%;}
+.section2 .body .box {    
+    display: flex; flex-direction: row;
+    align-items: flex-start; justify-content: center;
+    height: 80%; width: 33.3%; padding: 5% 5%;
+    background: #121712;}
+.section2 .body img {height: 100%; width: 30%; z-index: 2;}
+.section2 .body div p {
+    text-align: justify; letter-spacing: 0.5px; font-size: 19px;
+    color: white;}
+.section2 .rectangle {
+    height: 100vh; width: 45vh;
+    position: absolute; z-index: 1;
+    background: #1d1d24;}

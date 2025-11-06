@@ -1,0 +1,148 @@
+@media (max-width: 768px){
+    /* --- --- SECTION 1 --- --- */    
+    /* --- HEADER --- */
+    .section1 header {height: 0.4in; padding: 0vw 2.5vw;}
+    .section1 header ul {gap: 2.5vw;}
+    .section1 header ul li {font-size: 0.8rem;}
+    .section1 header img {height: 75%; width: auto;}
+
+    /* --- BODY --- */
+    .section1 .parent .child {display: flex; flex-direction: column;}
+    .section1 .parent .child img {height: auto; width: 88vw;}
+    .section1 .parent .child .content {
+        align-items: center; justify-content: flex-start;
+        height: auto; width: 88vw; margin: 0% 0%; padding: 1.5% 1.5%;
+        background: #1d1d24;}
+    .section1 .parent .child .content h1 {font-size: 3rem; color: #ffffff;}
+    .section1 .parent .child .content h2 {font-size: 2rem; color: #7ce27c;}
+    .section1 .parent .child .content p  {padding: 2.5% 15%; font-size: 1.15rem; color: #ffffff;}
+
+
+
+    /* --- --- SECTION 2 --- --- */
+    /* --- SECTION --- */
+    .section2 {height: 125vh;}    
+    
+    /* --- HEADER --- */
+    .section2 header {
+        display: flex; flex-direction: row;
+        align-items: center; justify-content: center;
+        height: 15vh; width: auto;}
+    .section2 h1 {font-size: 3.25rem; color: white; z-index: 2;}
+    
+    /* --- BODY --- */
+    .section2 {align-items: center; justify-content: center;}
+    .section2 .body {
+        display: flex; flex-direction: column;
+        align-items: center; justify-content: center;
+        height: 110vh; width: auto;
+        margin: 0% 5%; margin-bottom: 2.5%;}
+    .section2 .body .box {    
+        display: flex; flex-direction: row;
+        align-items: center; justify-content: center;
+        height: 25vh; width: 50vw; padding: 5% 5%;
+        background: #121712; z-index: 1}
+    .section2 .body img {height: 60vh; width: 50vw; z-index: 2;}
+    .section2 .body div p {
+        text-align: justify; letter-spacing: 0.5px; font-size: 0.95rem;
+        color: white;}
+    .section2 .rectangle {
+        height: 125vh; width: 45vh;
+        position: absolute; z-index: 0;
+        background: #1d1d24;}
+    
+
+
+    /* --- --- SECTION 3 --- --- */    
+    /* --- HEADER --- */
+    .section3 h1 {font-size: 3.25rem; color: white;} 
+
+    /* --- BODY --- */
+    .section3 .center {height: 100%; width: 60vw; background: #1d1d24;}
+    .section3 .middle {height: 85%; width:  10vw; background: #1d1d24;}
+    .section3 .side   {height: 60%; width: 4.125vw; background: #1d1d24;}
+
+
+
+    /* --- --- SECTION 4 --- --- */
+    /* --- SECTION --- */
+    .section4 {height: 150vh;}
+
+    /* --- HEADER --- */
+    .section4 h1 {
+        font-size: 3.25rem;}
+
+    /* --- BODY --- */
+    .section4 .main {
+        display: flex; flex-direction: column;
+        align-items: center; justify-content: space-around;
+        height: 150vh; width: auto;
+        margin: 10% 10%; z-index: 2;}
+
+    .section4 .main .top, .section4 .main .bottom {flex-direction: column;}
+    .section4 .main .top, .section4 .main .bottom {height: 40%; width: 100%;}
+
+    .section4 .background {
+        height: 150vh;}
+
+    
+
+    /* --- --- SECTION 5 --- --- */
+    /* --- HEADER --- */
+    .section5 header {
+        display: flex; flex-direction: row;
+        align-items: center; justify-content: center;
+        height: 20vh; width: auto;}
+    .section5 h1 {font-size: 3.25rem; color: white;}
+
+    /* --- BODY --- */
+    .section5 {height: 50vh;}
+    .section5 .main {align-items: center; justify-content: center;}
+    .section5 .main img {height: 30vh; width: auto;}
+
+
+
+    /* --- --- SECTION 6 --- --- */
+    /* --- SECTION --- */
+    .section6 {height: 175vh;}
+
+    /* --- HEADER --- */
+
+
+    /* --- BODY --- */
+    .section6 .main {
+        flex-direction: column; justify-content: space-evenly;
+        height: 144.5vh; width: auto;
+        margin: 0vh 7.5vw; margin-bottom: 0vh; gap: 1.5%;}
+
+    .section6 .main div {
+        justify-content: space-evenly;
+        height: 3.5in; width: 75%;
+        padding: 2.5% 2.5%; gap: 0;}
+
+    /* --- FOOTER --- */
+    hr {height: 0.5vh; background: #446244; border: none;}
+    .section6 footer {
+        display: flex; flex-direction: row;
+        align-items: center; justify-content: space-evenly;
+        height: 0.4in; width: auto;
+        padding: 0px 1vw;
+        background: #1d1d24;}
+
+    .section6 footer img {height: 10px; width: 10px ;}
+
+    .section6 footer .left {
+        display: flex; flex-direction: column;
+        align-items: flex-start; justify-content: center;
+        height: auto; width: 20%;}
+    .section6 footer .left img {height: 0.2in; width: auto;}
+    .section6 footer .left h6 {font-size: 0.4rem; color: white;}
+
+    .section6 footer .right {
+        display: flex; flex-direction: row;
+        align-items: center; justify-content: flex-end;
+        height: auto; width: 80%;
+        gap: 5%;}
+    .section6 footer .right img {height: 3.5vh; width: auto; border-radius: 100%;}
+    .section6 footer .right h6 {font-size: 0.8rem; color: white;}
+}

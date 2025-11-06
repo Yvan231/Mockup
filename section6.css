@@ -1,0 +1,53 @@
+
+/* --- HEADER --- */
+.section6 header {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    height: 30vh; width: auto;
+    margin: 0vh 7.5vw; padding-bottom: 10vh; background: #121712;}
+.section6 h1 {font-size: 350%; color: white;}
+
+
+/* --- BODY --- */
+.section6 .main {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: space-between;
+    height: 49.5vh; width: auto;
+    margin: 0vh 7.5vw; margin-bottom: 10vh;}
+
+.section6 .main div {
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: flex-start;
+    height: 100%; width: 32.5%; background-color: #1d1d24;
+    padding: 1% 1%; gap: 1.5vh;}
+
+.section6 .main img {height: 10vh; width: 10vh; border-radius: 100%;}
+.section6 .main .name {color: #7ce27c;}
+.section6 .main .rating {color: white;}
+.section6 .main p {text-align: justify;color: #7ce27c;}
+
+/* --- FOOTER --- */
+hr {height: 0.5vh; background: #446244; border: none;}
+.section6 footer {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: space-between;
+    height: 10vh; width: auto;
+    padding: 0px 1vw;
+    background: #1d1d24;}
+
+.section6 footer img {height: 10px; width: 10px ;}
+
+.section6 footer .left {
+    display: flex; flex-direction: column;
+    align-items: flex-start; justify-content: center;
+    height: auto; width: 50%;}
+.section6 footer .left img {height: 4vh; width: auto;}
+.section6 footer .left h6 {font-size: 100%; color: white;}
+
+.section6 footer .right {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: flex-end;
+    height: auto; width: 50%;
+    gap: 5%;}
+.section6 footer .right img {height: 7vh; width: auto; border-radius: 100%;}
+.section6 footer .right h6 {font-size: 125%; color: white;}

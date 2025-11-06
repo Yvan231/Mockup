@@ -1,0 +1,14 @@
+
+/* --- HEADER --- */
+.section5 header {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    height: 20vh; width: auto;}
+.section5 h1 {font-size: 350%; color: white;}
+
+/* --- BODY --- */
+.section5 .main {
+    display: flex; flex-direction: row;
+    align-items: flex-start; justify-content: center;
+    height: 80vh; width: auto;}
+.section5 .main img {border: 1vh solid #7ce27c;}

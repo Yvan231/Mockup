@@ -1,0 +1,48 @@
+/* --- HEADER --- */
+.section3 header {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    height: 20vh; width: auto;}
+.section3 h1 {font-size: 350%; color: white;}
+
+/* --- BODY --- */
+.section3 {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: space-evenly;}
+.section3 .center {height: 100%; width: 32.5vw; background: #1d1d24;}
+.section3 .middle {height: 85%; width:  16.25vw; background: #1d1d24;}
+.section3 .side   {height: 60%; width: 8.125vw; background: #1d1d24;}
+
+.section3 .container {
+    display: flex; flex-direction: column;
+    align-items: flex-start; justify-content: flex-start;
+    height: 80vh; width: auto;
+    padding: 0% 10%; gap: 10%;}
+.section3 .container .content1,
+.section3 .container .content2,
+.section3 .container .content3,
+.section3 .container .content4,
+.section3 .container .content5{
+    display: flex; flex-direction: column;
+    align-items: flex-start; justify-content: flex-start;
+    height: auto; width: 100%;
+    color: #7ce27c;}
+
+.section3 .container .content1 span {font-size: 75%; text-align: end; width: 70%;}
+.section3 .container .content2 span {font-size: 75%; text-align: end; width: 90%;}
+.section3 .container .content3 span {font-size: 75%; text-align: end; width: 80%;}
+.section3 .container .content4 span {font-size: 75%; text-align: end; width: 60%;}
+.section3 .container .content5 span {font-size: 75%; text-align: end; width: 50%;}
+
+.section3 .container h6 {font-size: 100%;}
+
+.section3 .container .content1 .parent {height: 3.75vh; width: 100%; background: #446244;}
+.section3 .container .content1 .parent .child {height: 3.75vh; width: 70%; background: #ffffff;}
+.section3 .container .content2 .parent {height: 3.75vh; width: 100%; background: #446244;}
+.section3 .container .content2 .parent .child {height: 3.75vh; width: 90%; background: #ffffff;}
+.section3 .container .content3 .parent {height: 3.75vh; width: 100%; background: #446244;}
+.section3 .container .content3 .parent .child {height: 3.75vh; width: 80%; background: #ffffff;}
+.section3 .container .content4 .parent {height: 3.75vh; width: 100%; background: #446244;}
+.section3 .container .content4 .parent .child {height: 3.75vh; width: 60%; background: #ffffff;}
+.section3 .container .content5 .parent {height: 3.75vh; width: 100%; background: #446244;}
+.section3 .container .content5 .parent .child {height: 3.75vh; width: 50%; background: #ffffff;}

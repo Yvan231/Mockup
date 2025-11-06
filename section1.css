@@ -1,0 +1,31 @@
+/* --- HEADER --- */
+.section1 header {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: space-between;
+    height: 10vh; width: auto; padding: 0px 1vw;
+    background: #1d1d24;}
+.section1 header img {height: 50px; width: auto;}
+.section1 header ul {
+    display: flex; flex-direction: row;
+    font-size: 20px; gap: 2.5vw;}
+.section1 header ul li {list-style: none; color: white;}
+hr {height: 0.5vh; background: #446244; border: none;}
+
+/* --- BODY --- */
+.section1 .parent {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: flex-start;
+    height: 89.5vh; width: auto;
+    padding-top: 5%; padding-bottom: 5%; padding-left: 5%;}
+.section1 .parent .child {
+    display: flex; flex-direction: row;
+    height: 100%; width: 100%;}
+.section1 .parent .child img {height: 100%; width: auto;}
+.section1 .parent .child .content {
+    display: flex; flex-direction: column;
+    align-items: flex-start; justify-content: flex-start;
+    height: auto; width: 100%; margin: 1.5% 0%; padding: 1.5% 1.5%;
+    background: #1d1d24;}
+.section1 .parent .child .content h1 {font-size: 300%; color: #ffffff;}
+.section1 .parent .child .content h2 {font-size: 225%; color: #7ce27c;}
+.section1 .parent .child .content p  {padding: 25% 0%;font-size: 175%; color: #ffffff;}
